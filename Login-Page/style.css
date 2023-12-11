@@ -50,7 +50,7 @@ body{
 
 
 .placeholder{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
     
 }
 
@@ -140,7 +140,7 @@ font-size: 20px;
     transition-duration: 0.5s;
 }
 
-.placeholder input:focus{
+.placeholder input:focus-visible{
     outline: none;
 }
 
